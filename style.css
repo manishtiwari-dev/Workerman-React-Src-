@@ -1,0 +1,160 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 10px;
+  }
+  table th{
+    font-size: 14px;
+  }
+  table th,
+  table td {
+    padding: 10px 0px;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  table .desc {
+    text-align: left;
+  }
+  table tfoot td {
+    text-align: left;
+    padding: 6px 0px;
+    background: #FFFFFF;
+    border-bottom: none;
+    white-space: nowrap; 
+    border:none
+  }
+  
+  .term {
+      font-weight: bold;
+  }
+
+  .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.content-components {
+    /* font-size: 16px; */
+    padding: 20px;
+    position: relative;
+    color: #1b2e4b;
+    letter-spacing: -0.2px;
+    overflow-x: hidden;
+    min-height: calc(100vh - 106px);
+}
+
+body {
+    margin: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #001737;
+    text-align: left;
+    background-color: #fff;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@media (min-width: 992px){
+.footer {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+}
+
+
+
+
+.footer {
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+    letter-spacing: 0.3px;
+    padding: 15px 25px;
+    margin-left: 240px;
+    background-color: #fafbfc;
+    color: #637388;
+    border-top: 1px solid rgba(72, 94, 144, 0.16);
+    text-transform: uppercase;
+    display: none;
+}
+
+@media (min-width: 576px){
+.col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+.tx-spacing--2 {
+    letter-spacing: -1px;
+}
+
+.tx-normal {
+    font-weight: 400;
+}
+
+.tx-color-04 {
+    color: #c0ccda;
+}
+
+.mg-b-10 {
+    margin-bottom: 10px;
+}
+
+h1, .h1 {
+    font-size: 2.1875rem;
+}
+
+
+
+.tx-spacing--2 {
+    letter-spacing: -1px;
+}
+.tx-normal {
+    font-weight: 400;
+}
+.tx-color-04 {
+    color: #c0ccda;
+}
+.mg-b-10 {
+    margin-bottom: 10px;
+}
+h1, .h1 {
+    font-size: 2.1875rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #001737;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.tx-right {
+    text-align: right;
+}
+
